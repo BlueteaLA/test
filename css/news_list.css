@@ -100,51 +100,58 @@ a {
 .blue-news-list .blue-news-title .bgphoto {
   position: absolute;
   bottom: 0;
-  left: 56px;
+  left: 54px;
 }
 .blue-news-list .blue-news-message {
   height: 60px;
   border-top: 1px solid #d2d2d2;
+  -webkit-border-top: 1px solid #d2d2d2;
   border-bottom: 1px solid #d2d2d2;
+  -webkit-border-bottom: 1px solid #d2d2d2;
   box-sizing: border-box;
-  padding: 20px 12px 12px;
+  padding: 20px 6px 12px;
   color: #a7a7a7;
   font-family: "";
-  min-width: 484px;
 }
 .blue-news-list .blue-news-message > div {
   float: left;
 }
 .blue-news-list .blue-news-message .datetime {
   vertical-align: middle;
-  padding-right: 7%;
+  padding-right: 3%;
 }
 .blue-news-list .blue-news-message .datetime img {
   transform: translateY(2px);
-  padding-right: 8px;
+  padding-right: 3px;
 }
 .blue-news-list .blue-news-message .user {
   vertical-align: middle;
-  padding-right: 7%;
+  padding-right: 3%;
 }
-.blue-news-list .blue-news-message a{
+.blue-news-list .blue-news-message .user a{
   display: block;
   color: #a7a7a7;
 }
-.blue-news-list .blue-news-message .user img {
+.blue-news-list .blue-news-message .user a img {
   transform: translateY(2px);
-  padding-right: 8px;
+  padding-right: 3px;
 }
 .blue-news-list .blue-news-message .minilogo {
   width: 40px;
   height: 40px;
   border: 1px solid #c5c5c5;
+  -webkit-border: 1px solid #c5c5c5;
   border-radius: 50%;
-  position: relative;
   transform: translateY(-30%);
-  margin-right: 3%;
+  margin-right: 2%;
 }
-.blue-news-list .blue-news-message .minilogo > div {
+.blue-news-list .blue-news-message .minilogo a{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.blue-news-list .blue-news-message .minilogo a > div {
   position: absolute;
   margin: auto;
   left: 0;
@@ -154,9 +161,10 @@ a {
   width: 30px;
   height: 30px;
   border: 1px solid #bdbdbd;
+  webkit-border: 1px solid #bdbdbd;
   border-radius: 50%;
 }
-.blue-news-list .blue-news-message .minilogo > div img {
+.blue-news-list .blue-news-message .minilogo a > div img {
   position: absolute;
   margin: auto;
   left: 0;
